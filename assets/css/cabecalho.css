@@ -1,0 +1,29 @@
+.cabecalho{
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cabecalho__lista{
+    display: flex;
+}
+.cabecalho__item{
+    list-style: none;
+}
+.cabecalho__item:last-child .cabecalho__link{
+    margin-right: 0;
+}
+.cabecalho__link{
+    margin-right: 1.25rem;
+    color: var(--links);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.cabecalho__link:hover{
+    text-decoration: underline;
+}
+.cabecalho__link-active{
+    color: var(--active);
+    font-weight: bold;
+}
