@@ -8,10 +8,7 @@
     align-items: center;
     justify-content: center;
 }
-.banner__imagem{
-    width: 100%;
-    /*height: calc(100vh - 72px);*/
-}
+
 .banner__titulo{
     font-family: var(--pacifico);
     color: var(--branco);
@@ -20,17 +17,4 @@
     position: absolute;
     text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
     font-weight: 400;
-    
-    /*
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    */
-    /*
-    box-sizing: border-box;
-    padding-top: 15rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    */
 }
