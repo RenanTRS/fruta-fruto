@@ -2,6 +2,11 @@
     position: relative;
 }
 .banner__imagem{
+    background: url(../img/banner.jpg) no-repeat center / cover;
+    /*background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
     width: 100%;
     height: calc(100vh - 72px);
 }
