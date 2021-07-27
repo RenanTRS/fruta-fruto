@@ -3,13 +3,12 @@
 }
 .banner__imagem{
     background: url(../img/banner.jpg) no-repeat center / cover;
-    height: calc(100vh - 72px);
     width: 100%;
 }
 .banner__titulo{
     color: var(--branco);
     font-family: var(--pacifico);
-    font-size: 5.6rem;
+    
     font-weight: 400;
     left: 50%;
     position: absolute;
@@ -18,4 +17,22 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem{
+        height: calc(100vh - 51px);
+    }
+    .banner__titulo{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem{
+        height: calc(100vh - 72px);
+    }
+    .banner__titulo{
+        font-size: 5.6rem;
+    }
 }

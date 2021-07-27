@@ -1,9 +1,9 @@
 .cabecalho{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
     background-color: var(--header);
-    justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -28,4 +28,27 @@
 .cabecalho__link-active{
     color: var(--active);
     font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho{
+        justify-content: center;
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .cabecalho__img{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        justify-content: space-between;
+
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .cabecalho__img{
+        display: block;
+    }
 }
