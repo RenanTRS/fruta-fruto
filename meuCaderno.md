@@ -18,3 +18,7 @@
 ```
 background: url(../diretorio) no-repeat center / cover;
 ```
+# Aula05 - Estilização do rodapé e responsividade do site
+## Criando o rodapé:
+## Deixando o site responsivo:
+## Finalizando a responsividade:
