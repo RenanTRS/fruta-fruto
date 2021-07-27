@@ -1,8 +1,9 @@
 .cabecalho{
-    background-color: var(--header);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    
+    background-color: var(--header);
+    justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -16,8 +17,8 @@
     margin-right: 0;
 }
 .cabecalho__link{
-    margin-right: 1.25rem;
     color: var(--links);
+    margin-right: 1.25rem;
     text-decoration: none;
     text-transform: lowercase;
 }

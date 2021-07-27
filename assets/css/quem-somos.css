@@ -1,22 +1,23 @@
 .quem-somos{
-    text-align: center;
     padding: 5rem;
+    text-align: center;
 }
 .quem-somos__titulo{
+    color: var(--vinho);
+    margin-bottom: 1rem;
     font-family: var(--pacifico);
     font-size: 3.18rem;
     font-weight: 400;
-    color: var(--vinho);
-    margin-bottom: 1rem;
 }
 .quem-somos__descricao{
+    color: var(--texto);
     font-size: 1.75rem;
     font-weight: 300;
-    color: var(--texto);
 }
 .pessoas{
     display: flex;
     justify-content: space-around;
+    
     padding-top: 3rem;
 }
 .pessoa{
@@ -24,13 +25,13 @@
     flex-direction: column;
 }
 .pessoa__imagem{
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     border-radius: 100%;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
 }
 .pessoa__imagem--roberta{
     background-image: url(../img/pessoas/roberta.jpg);
@@ -42,13 +43,13 @@
     background-image: url(../img/pessoas/andreia.jpg);
 }
 .pessoa__nome{
-    margin: 1rem 0;
-    font-family: var(--pacifico);
     color: var(--vinho);
+    font-family: var(--pacifico);
     font-size: 2rem;
+    margin: 1rem 0;
 }
 .pessoa__funcao{
-    text-transform: lowercase;
     color: #595959;
     font-size: 1.25rem;
+    text-transform: lowercase;
 }
